@@ -1,0 +1,161 @@
+* {
+  block-size: border-box;
+  text-decoration: none;
+  font-family: Arial;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+html body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 70px;
+}
+
+header {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.more {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more-block {
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  color: white;
+}
+.more-block .mail {
+  display: inline;
+  border-bottom: 1px white solid;
+}
+
+.gray {
+  background: gray;
+  height: 100px;
+  width: 100%;
+}
+
+.gray-color {
+  background: gray;
+}
+
+hr {
+  width: 100%;
+  background: black;
+  margin: 22px 0;
+}
+
+.hr-second {
+  width: 100%;
+  background: black;
+  margin: 35px 0;
+}
+
+.light-gray {
+  background: lightgrey;
+}
+
+.info {
+  position: relative;
+  height: 100%;
+}
+
+.info-top {
+  position: sticky;
+  top: 0;
+  padding: 20px 13px;
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 154px;
+}
+.info-top .title-block {
+  font-weight: bold;
+}
+
+.info-bot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 134px;
+}
+
+.layout {
+  padding: 23px 20px;
+}
+.layout li {
+  margin-left: 25px;
+}
+.layout span {
+  font-weight: bold;
+}
+
+.MyCard {
+  height: 150px;
+  padding: 15px 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.offset-top-24 {
+  margin-top: 24px;
+}
+
+.col-2_5 {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.col-2_5 .light-gray {
+  transition: all 0.5s;
+}
+
+.col-2_5:hover .light-gray {
+  background: lightgreen;
+  transition: all 0.5s;
+}
+.col-2_5:hover img {
+  transform-style: preserve-3d;
+  animation: main-rotate 2.5s infinite linear;
+}
+@keyframes main-rotate {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.studio {
+  padding: 23px 18px;
+  height: 100%;
+}
+
+.item-list {
+  display: flex;
+  color: white;
+  padding: 18px 0;
+}
+.item-list ul {
+  list-style-type: none;
+}
+
+.block-11 {
+  padding: 18px 0;
+  color: white;
+}
+
+.block-12 {
+  height: 87px;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
